@@ -1,0 +1,118 @@
+0000.061 (R) [notice] Looking for db archive: file name: backup_2020-09-28-2117_Vivaldi_Group_8af1c5080d46-db
+0000.062 (R) [notice] Archive is expected to be size: 17171 KB: OK
+0000.068 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.072 (R) [notice] Unpacking backup... (backup_2020-09-28-2117_Vivaldi_Group_8af1c5080d46-db, 16.8 Mb)
+0000.110 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.206 (R) [notice] Enabling Maintenance mode&#8230;
+0000.222 (R) [notice] Backup of: https://local-vivaldi.local
+0000.235 (R) [notice] Content URL: https://local-vivaldi.local/wp-content
+0000.235 (R) [notice] Uploads URL: https://local-vivaldi.local/wp-content/uploads
+0000.235 (R) [notice] Old table prefix: wp_
+0000.235 (R) [notice] Site information: multisite = 0
+0000.236 (R) [notice] New table prefix: wp_
+0000.254 (R) [notice] Processing table (InnoDB):  wp_options
+0002.022 (R) [notice] Search and replacing table: wp_options: rows: 826
+0003.069 (R) [notice] Processing table (InnoDB):  wp_users
+0003.138 (R) [notice] Search and replacing table: wp_users: rows: 5
+0003.142 (R) [notice] Processing table (InnoDB):  wp_usermeta
+0003.206 (R) [notice] Search and replacing table: wp_usermeta: rows: 212
+0003.230 (R) [notice] Processing table (InnoDB):  wp_commentmeta
+0003.280 (R) [notice] Search and replacing table: wp_commentmeta: rows: 0
+0003.280 (R) [notice] Processing table (InnoDB):  wp_comments
+0003.346 (R) [notice] Search and replacing table: wp_comments: rows: 0
+0003.346 (R) [notice] Processing table (InnoDB):  wp_links
+0003.398 (R) [notice] Search and replacing table: wp_links: rows: 0
+0003.399 (R) [notice] Processing table (InnoDB):  wp_postmeta
+0004.061 (R) [notice] Database queries processed: 50 in 3.95 seconds
+0004.543 (R) [notice] Search and replacing table: wp_postmeta: rows: 122
+0004.577 (R) [notice] Processing table (InnoDB):  wp_posts
+0005.813 (R) [notice] Search and replacing table: wp_posts: rows: 2283
+0006.658 (R) [notice] Processing table (InnoDB):  wp_term_relationships
+0006.727 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0006.727 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy
+0006.823 (R) [notice] Search and replacing table: wp_term_taxonomy: rows: 79
+0006.827 (R) [notice] Processing table (InnoDB):  wp_termmeta
+0007.036 (R) [notice] Search and replacing table: wp_termmeta: rows: 206
+0007.043 (R) [notice] Processing table (InnoDB):  wp_terms
+0007.081 (R) [notice] Search and replacing table: wp_terms: rows: 79
+0007.084 (R) [notice] Processing table (InnoDB):  wp_pmxi_files
+0007.128 (R) [notice] Search and replacing table: wp_pmxi_files: rows: 16
+0007.130 (R) [notice] Processing table (InnoDB):  wp_pmxi_hash
+0007.178 (R) [notice] Search and replacing table: wp_pmxi_hash: rows: 959
+0007.204 (R) [notice] Processing table (InnoDB):  wp_pmxi_history
+0007.236 (R) [notice] Database queries processed: 100 in 7.12 seconds
+0007.241 (R) [notice] Search and replacing table: wp_pmxi_history: rows: 16
+0007.243 (R) [notice] Processing table (InnoDB):  wp_pmxi_images
+0007.283 (R) [notice] Search and replacing table: wp_pmxi_images: rows: 140
+0007.289 (R) [notice] Processing table (InnoDB):  wp_pmxi_imports
+0007.636 (R) [notice] Search and replacing table: wp_pmxi_imports: rows: 16
+0007.655 (R) [notice] Processing table (InnoDB):  wp_pmxi_posts
+0007.724 (R) [notice] Search and replacing table: wp_pmxi_posts: rows: 681
+0007.756 (R) [notice] Processing table (InnoDB):  wp_pmxi_templates
+0007.813 (R) [notice] Search and replacing table: wp_pmxi_templates: rows: 4
+0007.822 (R) [notice] Processing table (InnoDB):  wp_podsrel
+0008.032 (R) [notice] Search and replacing table: wp_podsrel: rows: 683
+0008.094 (R) [notice] Processing table (InnoDB):  wp_smush_dir_images
+0008.136 (R) [notice] Search and replacing table: wp_smush_dir_images: rows: 0
+0008.136 (R) [notice] Processing table (InnoDB):  wp_tm_taskmeta
+0008.173 (R) [notice] Search and replacing table: wp_tm_taskmeta: rows: 0
+0008.174 (R) [notice] Processing table (InnoDB):  wp_tm_tasks
+0008.215 (R) [notice] Search and replacing table: wp_tm_tasks: rows: 0
+0008.215 (R) [notice] Processing table (InnoDB):  wp_yoast_indexable
+0008.398 (R) [notice] Search and replacing table: wp_yoast_indexable: rows: 1719
+0013.703 (R) [notice] Processing table (InnoDB):  wp_yoast_indexable_hierarchy
+0013.774 (R) [notice] Search and replacing table: wp_yoast_indexable_hierarchy: rows: 107
+0013.780 (R) [notice] Processing table (InnoDB):  wp_yoast_migrations
+0013.839 (R) [notice] Search and replacing table: wp_yoast_migrations: rows: 19
+0013.840 (R) [notice] Processing table (InnoDB):  wp_yoast_primary_term
+0013.903 (R) [notice] Search and replacing table: wp_yoast_primary_term: rows: 440
+0013.924 (R) [notice] Processing table (InnoDB):  wp_yoast_prominent_words
+0014.069 (R) [notice] Search and replacing table: wp_yoast_prominent_words: rows: 5560
+0014.206 (R) [notice] Searching and replacing reached row: 5000
+0014.226 (R) [notice] Processing table (InnoDB):  wp_yoast_seo_links
+0014.363 (R) [notice] Search and replacing table: wp_yoast_seo_links: rows: 2831
+0014.650 (R) [notice] Processing table (InnoDB):  wp_yoast_seo_meta
+0014.711 (R) [notice] Database queries processed: 150 in 14.60 seconds
+0014.720 (R) [notice] Disabling Maintenance mode&#8230;
+0014.739 (R) [notice] Search and replacing table: wp_yoast_seo_meta: rows: 1268
+0014.768 (R) [notice] Finished: lines processed: 154 in 14.65 seconds
+0014.771 (R) [notice] Cleaning up rubbish...
+0014.949 (R) [notice] Database search and replace: replace https://local-vivaldi.local in backup dump with http://localhost/wordpress
+0014.949 (R) [notice] Database search and replace: replace http://local-vivaldi.local in backup dump with http://localhost/wordpress
+0014.950 (R) [notice] Search and replacing table: wp_commentmeta: already done
+0014.950 (R) [notice] Search and replacing table: wp_comments: already done
+0014.950 (R) [notice] Search and replacing table: wp_links: already done
+0014.950 (R) [notice] Search and replacing table: wp_options: already done
+0014.951 (R) [notice] Search and replacing table: wp_pmxi_files: already done
+0014.951 (R) [notice] Search and replacing table: wp_pmxi_hash: already done
+0014.951 (R) [notice] Search and replacing table: wp_pmxi_history: already done
+0014.951 (R) [notice] Search and replacing table: wp_pmxi_images: already done
+0014.951 (R) [notice] Search and replacing table: wp_pmxi_imports: already done
+0014.951 (R) [notice] Search and replacing table: wp_pmxi_posts: already done
+0014.951 (R) [notice] Search and replacing table: wp_pmxi_templates: already done
+0014.951 (R) [notice] Search and replacing table: wp_podsrel: already done
+0014.951 (R) [notice] Search and replacing table: wp_postmeta: already done
+0014.951 (R) [notice] Search and replacing table: wp_posts: already done
+0014.951 (R) [notice] Search and replacing table: wp_smush_dir_images: already done
+0014.951 (R) [notice] Search and replacing table: wp_term_relationships: already done
+0014.951 (R) [notice] Search and replacing table: wp_term_taxonomy: already done
+0014.951 (R) [notice] Search and replacing table: wp_termmeta: already done
+0014.951 (R) [notice] Search and replacing table: wp_terms: already done
+0014.951 (R) [notice] Search and replacing table: wp_tm_taskmeta: already done
+0014.952 (R) [notice] Search and replacing table: wp_tm_tasks: already done
+0014.952 (R) [notice] Search and replacing table: wp_usermeta: already done
+0014.952 (R) [notice] Search and replacing table: wp_users: already done
+0014.952 (R) [notice] Search and replacing table: wp_yoast_indexable: already done
+0014.952 (R) [notice] Search and replacing table: wp_yoast_indexable_hierarchy: already done
+0014.952 (R) [notice] Search and replacing table: wp_yoast_migrations: already done
+0014.952 (R) [notice] Search and replacing table: wp_yoast_primary_term: already done
+0014.952 (R) [notice] Search and replacing table: wp_yoast_prominent_words: already done
+0014.952 (R) [notice] Search and replacing table: wp_yoast_seo_links: already done
+0014.952 (R) [notice] Search and replacing table: wp_yoast_seo_meta: already done
+0014.952 (R) [notice] Tables examined: 29
+0014.952 (R) [notice] Rows examined: 18271
+0014.953 (R) [notice] Changes made: 3405
+0014.953 (R) [notice] SQL update commands run: 1866
+0014.953 (R) [notice] Errors: 0
+0014.953 (R) [notice] Time taken (seconds): 8.329
+0015.007 (R) [notice] Restore successful!

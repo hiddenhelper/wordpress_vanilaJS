@@ -1,0 +1,8 @@
+0000.000 (1) Opened log file at time: Tue, 29 Sep 2020 04:50:15 +0000 on http://localhost/wordpress
+0000.003 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.29.24 WP: 5.5.1 PHP: 7.1.12 (apache2handler, Windows NT DESKTOP-HH7AGD3 10.0 build 18362 (Windows 10) i586) MySQL: 10.1.29-MariaDB WPLANG: en_US Server: Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.12 safe_mode: 0 max_execution_time: 900 memory_limit: 1000M (used: 50.3M | 24M) multisite: N openssl: OpenSSL 1.0.2m  2 Nov 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.006 (1) Free space on disk containing Updraft's temporary directory: 14308.6 MB
+0000.016 (1) This backup task (8af1c5080d46) is either complete or began over 2 days ago: ending (1601355015.4014, ) (existing jobdata keys: )
+0000.000 (1) Opened log file at time: Tue, 29 Sep 2020 07:34:36 +0000 on http://localhost/wordpress
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.29.24 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-HH7AGD3 10.0 build 18362 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_US Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 54M | 28M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (1) Free space on disk containing Updraft's temporary directory: 12006.9 MB
+0000.015 (1) This backup task (8af1c5080d46) is either complete or began over 2 days ago: ending (1601364876.515, ) (existing jobdata keys: )

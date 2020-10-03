@@ -1,0 +1,135 @@
+0000.051 () Opened log file at time: Tue, 29 Sep 2020 04:49:54 +0000 on http://localhost/wordpress
+0000.051 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.29.24 WP: 5.5.1 PHP: 7.1.12 (apache2handler, Windows NT DESKTOP-HH7AGD3 10.0 build 18362 (Windows 10) i586) MySQL: 10.1.29-MariaDB WPLANG: en_US Server: Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.12 safe_mode: 0 max_execution_time: 900 memory_limit: 1000M (used: 29.1M | 2M) multisite: N openssl: OpenSSL 1.0.2m  2 Nov 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.051 () Free space on disk containing Updraft's temporary directory: 14362 MB
+0000.014 () Opened log file at time: Tue, 29 Sep 2020 04:49:55 +0000 on http://localhost/wordpress
+0000.015 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.29.24 WP: 5.5.1 PHP: 7.1.12 (apache2handler, Windows NT DESKTOP-HH7AGD3 10.0 build 18362 (Windows 10) i586) MySQL: 10.1.29-MariaDB WPLANG: en_US Server: Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.12 safe_mode: 0 max_execution_time: 900 memory_limit: 1000M (used: 27.1M | 2M) multisite: N openssl: OpenSSL 1.0.2m  2 Nov 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.015 () Free space on disk containing Updraft's temporary directory: 14361.8 MB
+0000.031 () Ensuring WP_Filesystem is setup for a restore
+0000.034 () WP_Filesystem is setup and ready for a restore
+0000.060 () Restore job started. Entities to restore: db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_pmxi_files","wp_pmxi_hash","wp_pmxi_history","wp_pmxi_images","wp_pmxi_imports","wp_pmxi_posts","wp_pmxi_templates","wp_podsrel","wp_smush_dir_images","wp_tm_taskmeta","wp_tm_tasks","wp_yoast_indexable","wp_yoast_indexable_hierarchy","wp_yoast_migrations","wp_yoast_primary_term","wp_yoast_prominent_words","wp_yoast_seo_links","wp_yoast_seo_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.068 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.072 () Entity: db
+0000.072 () restore_backup(backup_file=backup_2020-09-28-2117_Vivaldi_Group_8af1c5080d46-db, type=db, info=a:0:{}, last_one=1)
+0000.072 () Unpacking backup... (backup_2020-09-28-2117_Vivaldi_Group_8af1c5080d46-db, 16.8 Mb)
+0000.108 () Database successfully unpacked
+0000.109 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.110 () Using direct MySQL access; value of use_mysqli is: 1
+0000.111 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.206 () Max packet size: 32 MB
+0000.206 () Entering maintenance mode
+0000.206 () Enabling Maintenance mode&#8230;
+0000.222 () Backup of: https://local-vivaldi.local
+0000.235 () Content URL: https://local-vivaldi.local/wp-content
+0000.235 () Uploads URL: https://local-vivaldi.local/wp-content/uploads
+0000.235 () Old table prefix: wp_
+0000.235 () Site information: multisite=0
+0000.236 () New table prefix: wp_
+0000.254 () Processing table (InnoDB): wp_options
+0000.654 () Restoring prior UD configuration (table: wp_options; keys: 97)
+0002.022 () Search and replacing table: wp_options: rows: 826
+0002.049 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0002.783 () Incomplete object detected in database: PodsField_Pick; Search and replace will be skipped for these entries
+0003.069 () Processing table (InnoDB): wp_users
+0003.138 () Search and replacing table: wp_users: rows: 5
+0003.141 () Processing table (InnoDB): wp_usermeta
+0003.207 () Search and replacing table: wp_usermeta: rows: 212
+0003.230 () Processing table (InnoDB): wp_commentmeta
+0003.280 () Search and replacing table: wp_commentmeta: rows: 0
+0003.280 () Processing table (InnoDB): wp_comments
+0003.346 () Search and replacing table: wp_comments: rows: 0
+0003.346 () Processing table (InnoDB): wp_links
+0003.399 () Search and replacing table: wp_links: rows: 0
+0003.399 () Processing table (InnoDB): wp_postmeta
+0004.061 () Database queries processed: 50 in 3.95 seconds
+0004.543 () Search and replacing table: wp_postmeta: rows: 122
+0004.577 () Processing table (InnoDB): wp_posts
+0005.797 () Skipping search/replace on GUID column in posts table
+0005.813 () Search and replacing table: wp_posts: rows: 2283
+0006.658 () Processing table (InnoDB): wp_term_relationships
+0006.727 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0006.727 () Processing table (InnoDB): wp_term_taxonomy
+0006.823 () Search and replacing table: wp_term_taxonomy: rows: 79
+0006.827 () Processing table (InnoDB): wp_termmeta
+0007.036 () Search and replacing table: wp_termmeta: rows: 206
+0007.043 () Processing table (InnoDB): wp_terms
+0007.082 () Search and replacing table: wp_terms: rows: 79
+0007.084 () Processing table (InnoDB): wp_pmxi_files
+0007.128 () Search and replacing table: wp_pmxi_files: rows: 16
+0007.130 () Processing table (InnoDB): wp_pmxi_hash
+0007.178 () Search and replacing table: wp_pmxi_hash: rows: 959
+0007.204 () Processing table (InnoDB): wp_pmxi_history
+0007.236 () Database queries processed: 100 in 7.12 seconds
+0007.241 () Search and replacing table: wp_pmxi_history: rows: 16
+0007.243 () Processing table (InnoDB): wp_pmxi_images
+0007.284 () Search and replacing table: wp_pmxi_images: rows: 140
+0007.289 () Processing table (InnoDB): wp_pmxi_imports
+0007.636 () Search and replacing table: wp_pmxi_imports: rows: 16
+0007.655 () Processing table (InnoDB): wp_pmxi_posts
+0007.724 () Search and replacing table: wp_pmxi_posts: rows: 681
+0007.756 () Processing table (InnoDB): wp_pmxi_templates
+0007.813 () Search and replacing table: wp_pmxi_templates: rows: 4
+0007.822 () Processing table (InnoDB): wp_podsrel
+0008.032 () Search and replacing table: wp_podsrel: rows: 683
+0008.094 () Processing table (InnoDB): wp_smush_dir_images
+0008.136 () Search and replacing table: wp_smush_dir_images: rows: 0
+0008.136 () Processing table (InnoDB): wp_tm_taskmeta
+0008.174 () Search and replacing table: wp_tm_taskmeta: rows: 0
+0008.174 () Processing table (InnoDB): wp_tm_tasks
+0008.215 () Search and replacing table: wp_tm_tasks: rows: 0
+0008.215 () Processing table (InnoDB): wp_yoast_indexable
+0008.398 () Search and replacing table: wp_yoast_indexable: rows: 1719
+0013.703 () Processing table (InnoDB): wp_yoast_indexable_hierarchy
+0013.774 () Search and replacing table: wp_yoast_indexable_hierarchy: rows: 107
+0013.780 () Processing table (InnoDB): wp_yoast_migrations
+0013.839 () Search and replacing table: wp_yoast_migrations: rows: 19
+0013.840 () Processing table (InnoDB): wp_yoast_primary_term
+0013.903 () Search and replacing table: wp_yoast_primary_term: rows: 440
+0013.924 () Processing table (InnoDB): wp_yoast_prominent_words
+0014.069 () Search and replacing table: wp_yoast_prominent_words: rows: 5560
+0014.206 () Searching and replacing reached row: 5000
+0014.225 () Processing table (InnoDB): wp_yoast_seo_links
+0014.363 () Search and replacing table: wp_yoast_seo_links: rows: 2831
+0014.650 () Processing table (InnoDB): wp_yoast_seo_meta
+0014.710 () Database queries processed: 150 in 14.60 seconds
+0014.720 () Unlocking database and leaving maintenance mode
+0014.720 () Disabling Maintenance mode&#8230;
+0014.739 () Search and replacing table: wp_yoast_seo_meta: rows: 1268
+0014.768 () Finished: lines processed: 154 in 14.65 seconds
+0014.771 () Cleaning up rubbish...
+0014.772 () Begin search and replace (updraftplus_restored_db)
+0014.772 () [Database-replace-site-url] Database: search and replace site URL
+0014.774 () Restored pre-migration site ID for this installation
+0014.949 () Database search and replace: replace https://local-vivaldi.local in backup dump with http://localhost/wordpress
+0014.949 () Database search and replace: replace http://local-vivaldi.local in backup dump with http://localhost/wordpress
+0014.950 () Search and replacing table: wp_commentmeta: already done
+0014.950 () Search and replacing table: wp_comments: already done
+0014.950 () Search and replacing table: wp_links: already done
+0014.950 () Search and replacing table: wp_options: already done
+0014.951 () Search and replacing table: wp_pmxi_files: already done
+0014.951 () Search and replacing table: wp_pmxi_hash: already done
+0014.951 () Search and replacing table: wp_pmxi_history: already done
+0014.951 () Search and replacing table: wp_pmxi_images: already done
+0014.951 () Search and replacing table: wp_pmxi_imports: already done
+0014.951 () Search and replacing table: wp_pmxi_posts: already done
+0014.951 () Search and replacing table: wp_pmxi_templates: already done
+0014.951 () Search and replacing table: wp_podsrel: already done
+0014.951 () Search and replacing table: wp_postmeta: already done
+0014.951 () Search and replacing table: wp_posts: already done
+0014.951 () Search and replacing table: wp_smush_dir_images: already done
+0014.951 () Search and replacing table: wp_term_relationships: already done
+0014.951 () Search and replacing table: wp_term_taxonomy: already done
+0014.951 () Search and replacing table: wp_termmeta: already done
+0014.951 () Search and replacing table: wp_terms: already done
+0014.952 () Search and replacing table: wp_tm_taskmeta: already done
+0014.952 () Search and replacing table: wp_tm_tasks: already done
+0014.952 () Search and replacing table: wp_usermeta: already done
+0014.952 () Search and replacing table: wp_users: already done
+0014.952 () Search and replacing table: wp_yoast_indexable: already done
+0014.952 () Search and replacing table: wp_yoast_indexable_hierarchy: already done
+0014.952 () Search and replacing table: wp_yoast_migrations: already done
+0014.952 () Search and replacing table: wp_yoast_primary_term: already done
+0014.952 () Search and replacing table: wp_yoast_prominent_words: already done
+0014.952 () Search and replacing table: wp_yoast_seo_links: already done
+0014.952 () Search and replacing table: wp_yoast_seo_meta: already done
+0015.007 () Restore successful!
+0015.007 () Restore successful
